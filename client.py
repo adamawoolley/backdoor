@@ -19,10 +19,8 @@ def client_setup():
         host = ''
         port = 0
 
-        if '-s' in argv:
+        if '--host' in argv:
                 host = argv[argv.index('-s') + 1]
-        elif '--server' in argv:
-                host = argv[argv.index('--server') + 1]
         else:
                 exit()
         if '-p' in argv:

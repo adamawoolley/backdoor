@@ -20,7 +20,7 @@ def client_setup():
         port = 0
 
         if '--host' in argv:
-                host = argv[argv.index('-s') + 1]
+                host = argv[argv.index('--host') + 1]
         else:
                 exit()
         if '-p' in argv:

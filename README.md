@@ -1,2 +1,7 @@
 # backdoor
-This is a backdoor and client written in python, I wanted to make a secure remote connection but I gave up on authentication and this is what is left
+This is a backdoor and client written in python  
+I am not responsible for anything you do with this  
+To run the server wiht the default settings type:  
+`python3.7 server.py --host {host} -p {port}`  
+To run the client:  
+`python3.7 client.py --host {host/server} -p {port}`
